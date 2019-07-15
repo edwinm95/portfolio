@@ -1,0 +1,440 @@
+.navbarcontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 1em;
+    width: 100%;
+    background-color: white;
+    box-shadow: 10px 1px 14px -14px rgba(0,0,0,0.5);
+    overflow-x: hidden;
+}
+.navbaricon{
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+.home{
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('./assets/images/landingpage.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+.pages{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.pageheader{
+    position: relative;
+    text-align: center;
+    margin: 5% 0;
+    font-size: 4em;
+    color: black;
+}
+.textcontainer{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    margin: 0;
+    padding: 1em 0;
+    background-color: white;
+    /* box-shadow: 10px 1px 14px -14px rgba(0,0,0,0.5); */
+    overflow-x: hidden;
+}
+.home{
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    line-height: 100%;
+}
+.about{
+    font-size: 1.2em;
+}
+.pagecontainer{
+    width: 100%;
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+    position: relative;
+    transition:all 1s ease;
+    margin-bottom: 1em;
+    scroll-behavior: smooth;
+}
+:target{
+    opacity:1;
+}
+.container{
+    border-radius: 1em 1em;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    background-color: white;
+}
+.introhello{
+}
+.introcontainer {
+    position: relative;
+    font-family: 'HelveticaNeueMedium';
+    padding: 10%;
+    font-size: 4em;
+    top: 20%;
+    text-align: center;
+    line-height: 1em;
+}
+.introoccupation{
+    color: #0fa959;
+}
+.navbarnamecontainer{
+
+}
+.navbarname{
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 1.5em;
+    color: #0fa959;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navbarname::first-letter{
+    font-family: 'HelveticaNeueMedium';
+    font-size: 1.6em;
+    font-weight: bold;
+}
+.navbarlinks {
+    display: inline;
+    text-decoration: none;
+    margin-right: 2em;
+    color: black;
+    padding: 0.2em 0;
+}
+.links{
+    line-height:3em;
+    position: absolute;
+    right: 2%;
+    font-family: 'HelveticaNeueMedium';
+}
+.educationcard{
+}
+.experiencecard {
+}
+.companycontainer{
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 0.5em;
+}
+.company{
+    font-size: 2em;
+    display: inline-block;
+}
+.position{
+    font-size:  1.5em;
+    display: inline-block;
+    float: right;
+    color: #0fa959;
+}
+.jobdescriptioncontainer{
+    font-family: 'HeleveticaNeueLightItalic';
+    margin: 1em 0;
+    font-size: 1em;
+}
+.jobdutiescontainer{
+}
+.skillscontainer{
+    width: 60%;
+    position: relative;
+    height: 80%;
+}
+.skills{
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: 0 0;
+}
+.headerborder{
+    width: 10%;
+    left: 45%;
+    margin: 1% 0;
+    position: relative;
+
+}
+.skillbarcontainer{
+    width: 100%;
+    height: 2em;
+    border-radius: 1em 1em;
+    margin-bottom: 1em;
+    background-color: #666666;
+    display: flex;
+    color: white;
+}
+.skilltext{
+    background-color: #0fa959;
+    font-family: 'HelveticaNeueMedium';
+    display: inline-block;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    width: 20%;
+    height: 100%;
+    line-height: 2em;
+    text-align: center;
+    color: white;
+}
+.css{
+    width: 60%;
+}
+.html{
+    width: 70%;
+}
+.java{
+    width: 70%;
+}
+.react{
+    width: 60%;
+}
+.swift{
+    width: 30%;
+}
+.node{
+    width: 60%;
+}
+.rails{
+    width: 30%;
+}
+.sql{
+    width: 50%;
+}
+.mongo{
+    width: 50%;
+}
+.javascript{
+    width: 60%;
+}
+.skillpercentage{
+    position: absolute;
+    right: 2%;
+    line-height: 2em;
+}
+.bar{
+    background-color: #2eec89;
+    height: 100%;
+    display: inline-block;
+}
+.contactcontainer{
+    width: 60%;
+    position: relative;
+    background-color: #262626;
+    left: 20%;
+}
+.contact{
+    width: 100%;
+    padding: 0 1em;
+    margin: 1em 0;
+}
+.contacticon{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    line-height: 2em;
+    text-align: center;
+    font-size: 2em;
+    transition: color 100ms;
+    margin-right: 1em;
+}
+.contacticon:hover{
+    color: #0fa959;
+    transition: color 100ms;
+}
+.contacttext{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    font-size: 1.2em;
+    transition: color 100ms;
+}
+.contacttext:hover{
+    color: #0fa959;
+    transition: color 100ms;
+}
+.project{
+    width: 100%;
+    position: relative;
+}
+.homebuy{
+    background-image: url('./assets/images/homebuy.png');
+}
+.homebuy::before{
+    background-color: rgba(15, 169, 89, 0);
+    content: '';
+    display: block;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    transition: background-color 100ms;
+}
+.projectimage{
+    display: block;
+    width: 50%;
+    height: 20em;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.homebuy:hover::before {
+    background-color:  rgba(15, 169, 89, 0.5);
+    transition: background-color 100ms;
+}
+.projecttitle{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    font-family: 'HelveticaNeueMedium';
+    cursor: pointer;
+    transition: color 100ms;
+}
+.projecttitle:hover{
+    color: #0fa959;
+    transition: color 100ms;
+}
+.projectdescription{
+}
+.projectcontainer{
+    padding: 1em 0;
+    width: 50%;
+}
+.projecttechnology{
+    margin: 1em 0;
+}
+.projectgithub{
+    font-size: 1.5em;
+    transition: color 100ms;
+}
+.drawermenu{
+    display: none;
+}
+.githublink{
+    text-decoration: none;
+    color: black;
+    transition: color 100ms;
+}
+.githublink:hover{
+    color: #0fa959;
+    transition: color 100ms;
+}
+.jobdatecontainer{
+    position: relative;
+    bottom: 0;
+}
+ul{
+    margin: 0;
+    padding: 1em;
+}
+li{
+    margin-bottom: 1em;
+}
+nav a.current {
+    color: black;
+    font-weight: bold;
+    background-color: #52f09e;
+    border-right: 5px solid #0fa959;
+    transition: color 1s; 
+}
+.active, a.active{
+    color: black;
+    font-weight: bold;
+    background-color: #52f09e;
+    border-right: 5px solid #0fa959;
+    transition: color 1s; 
+}
+.navabarcontainer a.acitve{
+    color: black;
+    font-weight: bold;
+    background-color: #52f09e;
+    border-right: 5px solid #0fa959;
+    transition: color 1s;
+}
+.navbarlinks:hover{
+    color: #0fa959;
+    font-weight: bold;
+    border-bottom: 3px solid #0fa959;
+    transition: color 200ms;
+}
+body{
+    font-family: 'HelveticaNeueLight';
+    background-color: #a0adaf;
+    color: black;
+    max-width: 100%;
+    background-color: white;
+    overflow-x: hidden;
+}
+html{
+}
+@font-face{
+    font-family: HelveticaNow;
+    src: url('./Helveltica/HelveticaNowDisplayXBlk.otf')
+}
+@font-face{
+    font-family: HelveticaNeueLight;
+    src: url('./Helveltica/HelveticaNeueLight.ttf')
+}
+@font-face{
+    font-family: HelveticaNeueMedium;
+    src: url('./Helveltica/HelveticaNeue-Medium.otf')
+}
+@font-face{
+    font-family: HeleveticaNeueLightItalic;
+    src: url('Helveltica/HelveticaNeueLightItalic.ttf')
+}
+
+@media only screen and (max-width: 768px){
+    .textcontainer{
+        width: 90%;
+        left: 5%;
+    }
+    .drawermenu{
+        color: #0fa959;
+        display: block;
+        position: absolute;
+        right: 11%;
+        font-size: 2em;
+        cursor: pointer;
+    }
+    .links{
+        display: none;
+    }
+    .navbarname{
+        float: center;
+    }
+    .pagecontainer{
+    }
+    .skillscontainer{
+        width: 100%;
+        position: relative;
+    }
+    .projectimage{
+        width: 100%;
+    }
+    .projecttitle{
+        display: block;
+        width: 100%;
+        float: left;
+        position: relative;
+        margin: 1em 0;
+    }
+    .position{
+        float: left;
+        width: 100%;
+    }
+    .projectcontainer{
+        width: 100%;
+    }
+    .skilltext{
+        font-size: 0.8em;
+    }
+    .skills{
+        height: 100%;
+    }
+}
